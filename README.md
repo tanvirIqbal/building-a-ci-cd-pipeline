@@ -17,7 +17,7 @@ A [Trello](https://trello.com/b/U1veFxKH/building-ci-cd-pipeline) board has been
 
 A [spreadsheet](project-management.xlsx) has been created to manage the project schedule.
 
-See [here](https://www.youtube.com/) for a YouTube video demonstrating the project.
+See [here](https://www.youtube.com/watch?v=MUyqL4_19u0) for a YouTube video demonstrating the project.
 
 # Instructions
 
