@@ -24,7 +24,7 @@ See [here](https://www.youtube.com/) for a YouTube video demonstrating the proje
 ## Deploy the app in Azure Cloud Shell
 In Azure Cloud Shell, clone the repo:
 ```
-git@github.com:tanvirIqbal/building-a-ci-cd-pipeline.git
+git clone git@github.com:tanvirIqbal/building-a-ci-cd-pipeline.git
 ```
 ![screenshot-git_clone.png](ScreenShot/1.%20Cloning%20project%20into%20Azure%20Cloud%20Shell.png) 
 
@@ -47,7 +47,8 @@ Install dependencies in the virtual environment and run tests:
 ```
 make all
 ```
-![screenshot-make_all.png](ScreenShot/2.%20Make%20all.png) 
+![screenshot-make_all.png](ScreenShot/2.MakeAll1.png) 
+![screenshot-make_all.png](ScreenShot/2.MakeAll2.png) 
 
 Start the application in the local environment:
 ```
@@ -101,3 +102,8 @@ If it's working you should see the following output:
 ![screenshot-make_predict_azure_app.png](ScreenShot/5.%20Prediction%20Azure.png)
 
 You can also visit the [URL](https://tanvir-udacity-webapp.azurewebsites.net/) of the App Service via the browser.
+
+View the app logs:
+```
+az webapp log tail -g udacity --name tanvir-udacity-webapp
+```
