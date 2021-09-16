@@ -126,7 +126,6 @@ pip install locust
 locust
 ```
 ![locust](ScreenShot/9.%20Locust%20Install1.png)
-![locust](ScreenShot/9.%20Locust%20Install2.png)
 ![locust](ScreenShot/10%20Run%20Locust.png)
 
 Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, spawn rate, set the host to https://tanvir-udacity-webapp.azurewebsites.net/, and click Start Swarming:
