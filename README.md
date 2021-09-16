@@ -116,5 +116,24 @@ View the app logs:
 az webapp log tail -g udacity --name tanvir-udacity-webapp
 ```
 
+## Load Test
+
+We can use locust to do a load test against our application. In this example we will do a load test against the app running in azure rather than locally.
+
+Install locust and then run locust:
+```
+pip install locust
+locust
+```
+![locust](ScreenShot/9.%20Locust%20Install1.png)
+![locust](ScreenShot/9.%20Locust%20Install2.png)
+![locust](ScreenShot/10%20Run%20Locust.png)
+
+Open a browser and go to http://localhost:8089. Enter the total number of users to simulate, spawn rate, set the host to https://tanvir-udacity-webapp.azurewebsites.net/, and click Start Swarming:
+
+![locust](ScreenShot/11.%20Locust1.png)
+
+![locust](ScreenShot/12.%20Locust2.png)
+
 # Future Enhancements
 Currently, there is only a single branch in GitHub. In the future, the project can be configured to work with multiple branches, so if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
