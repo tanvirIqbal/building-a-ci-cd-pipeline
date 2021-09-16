@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tanviriqbal/building-a-ci-cd-pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/tanviriqbal/building-a-ci-cd-pipeline/actions)
+
 # Introduction
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'Cloud DevOps using Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
@@ -19,7 +21,7 @@ A [Trello](https://trello.com/b/U1veFxKH/building-ci-cd-pipeline) board has been
 
 A [spreadsheet](project-management.xlsx) has been created to manage the project schedule.
 
-See [here](https://www.youtube.com/watch?v=MUyqL4_19u0) for a YouTube video demonstrating the project.
+See [here](https://www.youtube.com/watch?v=g-IOL2b68g4&t=329s) for a YouTube video demonstrating the project.
 
 # Instructions
 
@@ -93,6 +95,10 @@ Screenshot of the App Service in Azure:
 Screenshot of a successful run of the project in Azure Pipelines:
 
 ![screenshot-azure_pipeline_success.png](ScreenShot/7.%20Azure%20Pipeline.png)
+
+Screenshot of a successful build the project in GitHub Action:
+
+![3.%20GitHub%20Action%20Build.png](ScreenShot/3.%20GitHub%20Action%20Build.png)
 
 To test the app running in Azure App Service, edit line 28 of the make_predict_azure_app.sh script with the DNS name of your app. Then run the script:
 ```
