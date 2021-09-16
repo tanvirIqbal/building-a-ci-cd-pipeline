@@ -7,7 +7,7 @@ This project contains a python application that is designed to predict housing p
 
 # Project Plan
 This repo will enable you to:
-- Deploy the app in Azure CloudShell
+- Deploy the app in Azure CloudShell 
 - Deploy the app as an Azure App Service
 
 Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service. 
