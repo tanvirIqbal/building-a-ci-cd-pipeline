@@ -5,8 +5,8 @@ class WebsiteTestUser(HttpUser):
 
     @task(1)
     def test1(self):
-        self.client.get("https://tanvir-udacity-webapp.azurewebsites.net/")
+        self.client.get("https://tanvir-udacity-webapp.azurewebsites.net")
 
     @task(2)
     def test2(self):
-        self.client.post("https://tanvir-udacity-webapp.azurewebsites.net//predict")
+        self.client.post("https://tanvir-udacity-webapp.azurewebsites.net/predict")
