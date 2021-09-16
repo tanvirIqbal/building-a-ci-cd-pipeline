@@ -1,6 +1,8 @@
 # Introduction
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'Cloud DevOps using Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
+In this project, we will build a Github repository from scratch and create a scaffolding that will assist you in performing both Continuous Integration and Continuous Delivery. We'll use Github Actions along with a ```Makefile```, ```requirements.txt``` and application code to perform an initial lint, test, and install cycle. Next, we'll integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
+
 This project contains a python application that is designed to predict housing prices in Boston (the app is not developed by me).
 
 # Project Plan
@@ -107,3 +109,6 @@ View the app logs:
 ```
 az webapp log tail -g udacity --name tanvir-udacity-webapp
 ```
+
+# Future Enhancements
+Currently, there is only a single branch in GitHub. In the future, the project can be configured to work with multiple branches, so if you commit to a particular branch, the code can continue to be deployed in the corresponding environment (Development, QA, Staging or production).
